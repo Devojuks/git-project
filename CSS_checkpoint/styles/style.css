@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: rgb(65, 70, 126);
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+
+
+/* NAVIGATION AREA */
+
+.nav {
+    background-color: rgb(31, 34, 53);
+}
+
+.logo {
+    height: 23px;
+    width: 100px;
+    image-resolution: 300dpi;
+    margin: 25px 90px;
+    border: 30px;
+    margin-top: 40px;
+}
+
+.nav nav ul {
+    float: right;
+    margin: 40px 1px 80px;
+    margin-top: -60px;
+    border: none;
+    display: inline;
+}
+
+.nav ul li {
+    padding: 18px;
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: 545454;
+}
+
+.nav li a:hover {
+    color: rgb(255, 74, 87);
+}
+
+
+/* Homepage Section */
+
+.social-icons {
+    margin-top: 180px;
+    margin-left: 85px;
+    margin-bottom: 40px;
+}
+
+.social-icons li {
+    padding: 15px;
+    list-style: none;
+    display: inline;
+}
+
+.social-icons li a img {
+    height: 20px;
+    width: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: rgb(255, 74, 87);
+    padding: 13px;
+    display: inline;
+}
+
+.social-icons li a img:hover {
+    color: rgb(255, 74, 87);
+    background-color: #FF4A57;
+}
+
+.socials {
+    display: flex;
+}
+
+.intro img {
+    float: right;
+    margin-top: -23rem;
+    margin-right: 80px;
+    max-width: 400px;
+}
+
+.intro {
+    margin-left: 90px;
+}
+
+.intro h1 {
+    font-weight: 800;
+    font-size: 60px;
+    word-wrap: break-word;
+    margin-bottom: 35px;
+}
+
+.article p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 33px;
+    color: #dfdfdf;
+    margin-bottom: 80px;
+}
+
+.portfolio ul li {
+    list-style: none;
+    display: inline;
+}
+
+.portfolio a {
+    border: #FF4A57 solid;
+    border-radius: 100px;
+    border-width: 2px;
+    text-decoration: none;
+    padding: 13px 40px;
+    margin-left: 90px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.portfolio a.play-btn {
+    background: #FF4A57;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.portfolio a:hover {
+    background-color: #FF4A57;
+}
+
+#HomPage {
+    margin-bottom: 200px;
+}
+
+
+/*Service Page*/
+
+#ServicesPage {
+    background: rgb(31, 34, 53);
+}
+
+.services h3 {
+    font-size: 15px;
+    color: rgb(255, 74, 87);
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.services h2 {
+    font-weight: 700;
+    font-size: 62px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.services p {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+.services .line-spacer {
+    background: #FF4A57;
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 60px;
+}
+
+.line-spacer {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#Contacts {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#Contacts table {
+    padding: 20px;
+}
+
+#Contacts table th,
+td {
+    border: rgb(255, 74, 87) 3px solid;
+}
+
+#Contacts table tbody td {
+    padding: 30px;
+}
+
+form {
+    display: block;
+    margin: auto;
+    border: #dfdfdf 3px solid;
+    padding: 20px;
+    width: fit-content;
+}
