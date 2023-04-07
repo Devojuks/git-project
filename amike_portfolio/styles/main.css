@@ -35,7 +35,6 @@ body {
     margin: 40px 1px 80px;
     margin-top: -60px;
     border: none;
-    display: inline;
 }
 
 .nav ul li {
@@ -52,6 +51,10 @@ body {
     font-size: 18px;
     line-height: 24px;
     color: 545454;
+}
+
+.nav li a:hover {
+    color: #FF4A57;
 }
 
 
@@ -77,6 +80,10 @@ body {
     border-color: rgb(255, 74, 87);
     padding: 13px;
     display: inline;
+}
+
+.social-icons li a img:hover {
+    background: #FF4A57;
 }
 
 .socials {
@@ -127,6 +134,10 @@ body {
     font-weight: 500;
 }
 
+.portfolio a:hover {
+    background: #FF4A57;
+}
+
 .portfolio a.play-btn {
     background: #FF4A57;
     text-align: center;
@@ -142,6 +153,7 @@ body {
 
 #ServicesPage {
     background: rgb(31, 34, 53);
+    margin-bottom: 30px;
 }
 
 .services h3 {
@@ -168,21 +180,15 @@ body {
     font-size: 20px;
     padding: 10px;
     font-weight: 500;
+    margin-bottom: 40px;
 }
 
-.services .line-spacer {
+#ServicesPage .line-spacer {
     background: #FF4A57;
-    display: block;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    justify-content: initial;
-    height: 4px;
-    width: 60px;
-}
-
-.line-spacer {
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 30px;
+    margin-bottom: 40px;
 }
