@@ -1,0 +1,17 @@
+Step 1: Read input sentence from user
+var sentence = 'input a sentence'
+
+Step 2: Initialize counters 
+let length = 0;
+let numWords = 1;
+let numVowels = 0;
+
+Step 3: Loop through each character in the sentence
+
+Step 4: Count characters 
+
+Step 5: Check for space character indicating a new word 
+
+Step 6: Check if chharacter is a vowel
+
+Step 7: Output
